@@ -15,6 +15,7 @@
         href="${pageContext.request.contextPath}/resources/css/main.css" >
 </head>
 <body>
+<%--  sf form에서는 코드 상에서는 없지만 csrf 토큰이 알아서 날아감   --%>
 <sf:form method="post" action="${pageContext.request.contextPath}/docreate" modelAttribute="offer">
   <table class="formtable">
     <tr>
